@@ -18,7 +18,7 @@ export const product = [
     productName: "ฟองเต้าหู้ก้อน",
     detail:
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, aliquid qui illum incidunt nesciunt non quae laudantium iusto",
-    image: "../public/product/เต้าหู้ก้อน.png",
+    image: "/public/product/เต้าหู้ก้อน.png",
   },
   {
     id: 4,
