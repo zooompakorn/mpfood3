@@ -7,7 +7,7 @@ function MediaStep({ type, image, Icon }) {
         src={image}
         autoPlay
         muted
-        playsinline
+        playsInline
         className="w-[92vw] h-[60vh] object-fill"
       />
     );
