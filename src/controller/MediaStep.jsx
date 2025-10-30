@@ -8,6 +8,8 @@ function MediaStep({ type, image, Icon }) {
         autoPlay
         muted
         playsInline
+        webkit-playsinline
+        defaultMuted
         className="w-[92vw] h-[60vh] object-fill"
       />
     );
