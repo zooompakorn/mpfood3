@@ -1,0 +1,40 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes jump {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+.animation-scroll {
+  animation: scroll 12s infinite linear;
+}
+
+.animation-jump {
+  animation: jump 1.5s infinite ease-in-out alternate;
+}
+/* .animation-scroll:hover {
+  animation-play-state: paused;
+}
+
+.animation-scroll:active {
+  animation-play-state: running;
+} */
